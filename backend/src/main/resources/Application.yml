@@ -1,4 +1,7 @@
 spring:
   data:
     mongodb:
-      uri: mongodb+srv://ivqc23:2Fo5SBbEXY2uatYo@finance-cluster/finance-db?retryWrites=true&w=majority
+      uri: mongodb+srv://ivqc23:2Fo5SBbEXY2uatYo@finance-cluster.ywgarae.mongodb.net/finance-db?retryWrites=true&w=majority&appName=finance-cluster
+
+server:
+  port: 8000
